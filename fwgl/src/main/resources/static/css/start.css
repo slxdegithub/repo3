@@ -1,0 +1,32 @@
+
+ul, li, ol { list-style: none; }
+.cont_start {
+    display: flex;
+    float: right;
+    margin-right: 118px;
+}
+.show_number{
+    padding-left:50px;
+    padding-top:20px;
+}
+.show_number li{
+    width:240px;
+    border:1px solid #ccc;
+    padding:10px;
+    margin-right:5px;
+    margin-bottom:20px;
+}
+.atar_Show{
+    background:url(../images/fuwu/s1.png);
+    width:160px; height:21px;
+}
+.atar_Show p{
+    background:url(../images/fuwu/s2.png);
+    left:0;
+    height:21px;
+    width:134px;
+}
+.show_number li span{
+    display:inline-block;
+    line-height:21px;
+}

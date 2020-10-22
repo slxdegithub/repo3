@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+a {
+	cursor: pointer;
+}
+ul, li {
+	list-style: none;
+}
+#app{
+	margin-top: 25px;
+}
+.zy_content {
+	border-radius: 16px;
+	border-top: 1px solid #aaa;
+}
+.zy_left_con{
+	float: none!important;
+
+}
+.zy_right_con{
+	float: none!important;
+	width: 98%!important;
+	position: relative;
+}
+.hidden{
+	display: none!important;
+}
+/*类别管理*/
+.change_box table{
+    width: 100%;
+}
+.change_box table tr{
+    border-bottom: 1px solid #aaa;
+	height: 37px;
+}
+.change_box table thead tr {
+	font-weight: bold;
+}
+
+.change_box table tr:hover{
+    background-color: #e9f2ff;
+}
+.change_box table tr  td{
+    text-align: center ;
+}
+.change_box table tr  td a{
+    color: #00a7d0!important;
+}
+.page_btn .number_button{
+	color: #0d6aad;
+}
+.page_btn label{
+	font-size: 15px;
+	margin-top: 6px;
+}
+/*控制字数*/
+table{
+	width:100px;
+	table-layout:fixed;/* 只有定义了表格的布局算法为fixed，下面td的定义才能起作用。 */
+}
+td {
+	width: 100%;
+	word-break: keep-all; /* 不换行 */
+	white-space: nowrap; /* 不换行 */
+	overflow: hidden; /* 内容超出宽度时隐藏超出部分的内容 */
+	text-overflow: ellipsis; /* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用*/
+}
+/*0806*/
+td .el-button{
+	width: 30px;
+	height: 30px;
+	padding: 7px 1px!important;
+	margin-left: 2px!important;
+}
+tr td:first-child{
+	width: 40%;
+}
+ul .menu_li{
+	min-width: 0px!important;
+}
+.el-menu-vertical-demo{
+	height: 470px;
+}
+th .cell{
+	text-align: center;
+}

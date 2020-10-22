@@ -1,0 +1,111 @@
+*{
+    font-family: "微软雅黑";
+    font-size: 16px;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    color: #666;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+}
+.bgone{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:0;right: 0;left: 0;bottom: 0;margin: auto;
+}
+.pic{
+	width: 487px;
+	height: auto;
+	position: absolute;
+	top:-61px;right: 398px;left: 0;bottom: 0;margin: auto;
+	z-index: 99999;
+}
+.table{
+	background-color: #FFFFFF;
+	width: 833px;
+	height: 392px;
+	position: absolute;
+	top:-9%;right: 0;left: 0;bottom: 0;margin: auto;
+}
+.password{
+     position: absolute;
+     top: 12.8rem;
+     right: 4rem;
+     display: flex;
+}
+.btn{
+    position: absolute;
+    top: 18.5rem;
+    right: 3.9rem;
+    border: none;
+    color: #fff;
+    width: 343px;
+    text-align: center;
+    background-color: #1592ef;
+    text-indent: 0rem;
+    border-radius: 10px;
+    text-shadow:2px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow:2px 2px 1px rgba(0, 0, 0, 0.2);
+    font-size:20px ;
+    height: 50px;
+}
+
+.wel{
+	/*width: 960px;*/
+	height: 415px;
+	color: #1592EF;
+    /* font-size: 25px; */
+    position: absolute;
+    left: 465px;
+	top: 57px;
+	font: bold 25px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    text-shadow: 0 1px 0 #cccccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbbbbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaaaaa, 0 6px 12px rgba(0, 0, 141, 0.1), 0 0 303px rgba(0, 0, 0, 0.1), 0 1px 0px rgba(0, 0, 0, 0.3), 0 3px 72px rgba(0, 0, 0, 0.2), 0 5px 2px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
+
+}.wel1{
+	/*width: 960px;*/
+	height: 35px;
+	color: #fff;
+    font-size: 12.38px;
+    position: absolute;
+    top: -4rem;
+    text-align: center;    
+   
+}
+.changePwd_txt{
+    width: 960px;
+    height: 415px;
+    color: #1592EF;
+    /* font-size: 25px; */
+    position: absolute;
+    left: 465px;
+    top: 57px;
+    font: bold 25px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+input{	 
+     height: 55px;
+     width: 342px;
+     text-indent: 55px;
+     outline:none;
+     background: #eef6fd;
+     border-bottom:2px #d6e7fa solid ;
+}
+.password input{
+	
+}
+.user{
+	 position: absolute;
+     top: 7.8rem;
+     right:4rem;
+     display: flex;	
+}
+
+.login_img img{
+	height: 30px;
+	position: absolute;
+	left: 10px;
+	top: 13px;
+}

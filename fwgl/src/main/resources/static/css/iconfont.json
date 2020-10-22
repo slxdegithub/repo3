@@ -1,0 +1,205 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "62380426",
+      "name": "作废",
+      "font_class": "zuofei",
+      "unicode": "e65e",
+      "unicode_decimal": 58974
+    },
+    {
+      "icon_id": "62380427",
+      "name": "卸载",
+      "font_class": "yunxiazai",
+      "unicode": "e65f",
+      "unicode_decimal": 58975
+    },
+    {
+      "icon_id": "62380428",
+      "name": "提交",
+      "font_class": "tijiao",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "62380430",
+      "name": "挂载",
+      "font_class": "guazai",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "62380431",
+      "name": "圆",
+      "font_class": "yuan-active",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "62380433",
+      "name": "日志",
+      "font_class": "rizhi",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "62380434",
+      "name": "左",
+      "font_class": "zuo",
+      "unicode": "e727",
+      "unicode_decimal": 59175
+    },
+    {
+      "icon_id": "62380435",
+      "name": "审核结果",
+      "font_class": "shenhejieguo",
+      "unicode": "e66c",
+      "unicode_decimal": 58988
+    },
+    {
+      "icon_id": "62380436",
+      "name": "分析",
+      "font_class": "fenxi",
+      "unicode": "e660",
+      "unicode_decimal": 58976
+    },
+    {
+      "icon_id": "62380437",
+      "name": "审核",
+      "font_class": "shenhe",
+      "unicode": "e66a",
+      "unicode_decimal": 58986
+    },
+    {
+      "icon_id": "62380438",
+      "name": "删 除 ",
+      "font_class": "shanchu",
+      "unicode": "e752",
+      "unicode_decimal": 59218
+    },
+    {
+      "icon_id": "62380439",
+      "name": "查看",
+      "font_class": "chakan",
+      "unicode": "e675",
+      "unicode_decimal": 58997
+    },
+    {
+      "icon_id": "62380440",
+      "name": "服务管理",
+      "font_class": "fuwuguanli",
+      "unicode": "e67d",
+      "unicode_decimal": 59005
+    },
+    {
+      "icon_id": "62380441",
+      "name": "添加",
+      "font_class": "tianjia",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "62380443",
+      "name": "申请",
+      "font_class": "shenqing",
+      "unicode": "e6a7",
+      "unicode_decimal": 59047
+    },
+    {
+      "icon_id": "62380444",
+      "name": "编 辑",
+      "font_class": "bianji",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "4017710",
+      "name": "更多",
+      "font_class": "gengduo",
+      "unicode": "e509",
+      "unicode_decimal": 58633
+    },
+    {
+      "icon_id": "4439010",
+      "name": "项目",
+      "font_class": "xiangmu",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "5110098",
+      "name": "下载",
+      "font_class": "xiazai",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "8046484",
+      "name": "管理",
+      "font_class": "kongzhitai",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "9330155",
+      "name": "公告",
+      "font_class": "gonggao",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "9815649",
+      "name": "取消",
+      "font_class": "quxiao",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "10240310",
+      "name": "订阅",
+      "font_class": "dingyue",
+      "unicode": "e520",
+      "unicode_decimal": 58656
+    },
+    {
+      "icon_id": "10812798",
+      "name": "下",
+      "font_class": "xia",
+      "unicode": "e685",
+      "unicode_decimal": 59013
+    },
+    {
+      "icon_id": "11778148",
+      "name": "文档",
+      "font_class": "wendang",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "12819950",
+      "name": "操作说明",
+      "font_class": "caozuoshuoming",
+      "unicode": "e66f",
+      "unicode_decimal": 58991
+    },
+    {
+      "icon_id": "14355901",
+      "name": "irp-nav-dictionary词典管理",
+      "font_class": "irp-nav-dictionarycidianguanli",
+      "unicode": "e731",
+      "unicode_decimal": 59185
+    },
+    {
+      "icon_id": "14799190",
+      "name": "使用",
+      "font_class": "shiyong",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    }
+  ]
+}

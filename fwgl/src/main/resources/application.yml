@@ -1,0 +1,51 @@
+
+server:
+  port: 80
+
+spring:
+  session:
+    store-type: redis
+  datasource:
+    url: jdbc:mysql://localhost:3306/fwgl?allowMultiQueries=true&serverTimezone=UTC
+    password: root
+    hikari.idle-timeout: 60000
+    hikari.maximum-pool-size: 30
+    hikari.minimum-idle: 10
+    username: root
+  servlet:
+    multipart:
+      #最大文件大小。值可以使用后缀“MB”或“KB”。指示兆字节或千字节大小。
+      enabled: true
+      max-file-size: 50MB
+      # 最大请求大小可以是mb也可以是kb
+      max-request-size: 200MB
+  mvc:
+    view:
+      prefix: /WEB-INF/
+      suffix: .jsp
+  redis:
+    host: 47.96.154.180
+    port: 6379
+    database: 10
+#   thymeleaf:
+#     prefix: /templates   # 访问template下的html文件需要配置模板，映射
+#     cache: false # 开发时关闭缓存,不然没法看到实时页面
+#开启驼峰命名
+mybatis:
+  #config-location: classpath:mapper/*.xml
+  type-aliases-package: com.xyst.fwgl.model
+  configuration:
+    map-underscore-to-camel-case: true
+  mapper-locations: classpath:mapper/*.xml
+devtools:
+  restart:
+    enabled: true  #设置开启热部署
+    additional-paths: src/main/java #重启目录
+    exclude: WEB-INF/**
+freemarker:
+  cache: false    #页面不加载缓存，修改即时生效
+
+#配置外部访问文件
+cbs:
+  imagesPath:
+    file: /E:/FileUpload/

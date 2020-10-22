@@ -1,0 +1,408 @@
+/*清除默认样式*/
+ul li{
+    list-style: none;
+    font-size: 16px;
+}
+/*字体*/
+*{
+    font-family: Microsoft Yahei;
+
+}
+button{
+    outline:none!important;
+}
+.flex{
+    display: flex;
+}
+.float_n{
+    float: none!important;
+}
+.div_container{
+    background-color: white;
+    border-radius: 10px;
+    height: 84%;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+.div_container .sidebar{
+    border-right: 1px solid #aaa;
+    min-height: 80%!important;
+    margin-bottom: 40px;
+    width: 100%;
+    padding-top: 0px!important;
+    margin-top: 10px;
+}
+.div_container{
+    padding-top: 5px;
+}
+/*左侧导航*/
+.div_container .left{
+    min-width: 230px;
+}
+/*表格样式*/
+.change_box table{
+    width: 100%;
+}
+.change_box table tr{
+    border-bottom: 1px solid #aaa;
+    height: 37px;
+}
+.change_box table thead tr {
+    font-weight: bold;
+}
+.change_box table tbody tr:hover{
+    background-color: #e9f2ff;
+}
+.change_box table tr  td{
+    text-align: center ;
+    color: black;
+    font-size: 16px;
+}
+.change_box table tr  td a{
+    color: #00a7d0!important;
+}
+
+
+/*tools*/
+.todo-list .tools  .fa{
+    margin-right: 5px;
+    cursor: pointer;
+    color: #1044dd;
+}
+/*0809 model*/
+.d_td{
+    width: 123px;
+    text-align: right;
+    padding-right: 3px;
+}
+.modal_table tr{
+    height: 40px;
+}
+.modal_table2 ,.box{
+    border-top: 1px solid #f4f4f4;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.1);
+    margin-bottom: 0px;
+}
+.modal-body table td{
+    font-size: 17px;
+    color: black;
+}
+.modal_table2 tr{
+    border-bottom: 1px solid #aaaaaa;
+}
+.modal_table2  .tools{
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 9px;
+}
+.modal-content{
+    padding: 3px!important;
+    border: 1px solid #fff;
+    border-radius: 10px
+}
+
+/*增加按钮*/
+.btn_tools{
+    position: absolute;
+    right: 53px;
+    top: 9px;
+    color: #00acd6;
+    width: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn_tools .glyphicon-minus-sign{
+    color: red;
+}
+.table-bordered{
+    width: 273px;
+    margin: 0 auto;
+    float: none;
+}
+.box-header{
+    padding-left: 20px;
+    font-size: 15px;
+}
+/*删除按钮*/
+.del_btn{
+    position: relative;
+}
+.del_btn i{
+    position: absolute;
+    top: 14px;
+    right: -30px;
+    color: red;
+}
+.layui-inline{
+    position: absolute;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    right: 0;
+    bottom: 10px;
+}
+.layui-inline button{
+    height: 26px;
+    line-height: 1;
+}
+.layui-inline .layui-input-inline{
+    margin: 0px 7px;
+}
+.layui-inline .layui-form-label{
+    margin-bottom: 0px!important;
+}
+/*列表高亮*/
+.treeview a:hover{
+    background-color: #d2e3f6;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.select_btn{
+    background-color: #d2e3f6;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.treeview-menu  li{
+    margin-left: 9px!important;
+    transition: 1.5s;
+}
+/*label{*/
+/*font-weight: 500!important;*/
+/*}*/
+.page_btn{
+    min-height: 40px;
+    color: black;
+    font-size: 16px;
+}
+h3{
+    font-family: \534E\6587\6977\4F53;
+    font-weight: bold;
+}
+h4{
+    border-left: 4px solid #00a2e9;
+    padding-left: 5px;
+    font-weight: bold;
+    font-family: Microsoft Yahei;
+}
+.treeview a {
+    color:#224686!important;
+}
+/*过高的modal*/
+.modal_large{
+    right: 0;
+    width:620px;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    margin: 5px auto!important;
+
+}
+
+/*0804 页面上面搜索  东东的页面*/
+/*右侧搜索框*/
+.search_div{
+    position: absolute;
+    bottom: 8px;
+    right: 70px;
+    width: 415px;
+}
+.form-controll{
+    height: 32px;
+    float: left;
+    border: 0;
+    font-size: 17px;
+    padding-left: 10px;
+    text-align: center;
+    outline:none;
+    vertical-align: bottom;
+    margin-right: 10px;
+    color: black;
+}
+
+#logDate{
+    display: none;
+    float: left;
+}
+.butFind{
+    width: 60px;
+    height: 32px;
+    float: left;
+    margin-left: -3px;
+    border: 2px solid #00c0ef;
+    background-color: #00c0ef;
+    color: white;
+    outline:none;
+    border-radius: 0 5px 5px 0;
+}
+
+#btn_add{
+    border-radius: 5px;
+}
+/*小弹窗居中*/
+.modal_container{
+    height:80%;
+    display: flex;
+    align-items: center;
+}
+.modal_container .modal-content{
+    width: 100%;
+}
+.modal-body.box{
+    padding: 0px;
+    padding-bottom: 5px;
+}
+.modal-body.box table {
+    margin-bottom: 0px;
+    padding-left: 5px;
+}
+/* 东东的页面end*/
+/*接口注册搜索*/
+.right_btn_div{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+}
+.right_btn_div #btn_add{
+    height: 32px;
+}
+.right_btn_div .search{
+    margin-right: 10px;
+}
+/*控制字数*/
+.sub_font{
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    -o-text-overflow:ellipsis;
+    overflow:hidden;
+}
+/*图标间距*/
+.tools span{
+    margin: 0px 5px;
+    font-weight: bold;
+}
+.treeview .iconfont{
+    font-weight: bold;
+    font-size: 18px;
+}
+/*点击左转*/
+.icon-zuo{
+    position: absolute;
+    right: 10px;
+}
+.active .icon-zuo{
+    transform: rotate(-90deg);
+}
+/*分页按钮*/
+.zy_right_con{
+    position: relative;
+    height:95%;
+    min-height: 90%;
+}
+.todo-list{
+    width: 90px;
+}
+/*查看弹窗左侧*/
+.left_td{
+    text-align: right;
+    padding-right: 5px;
+}
+/*引入svg*/
+.thin_icon{
+    font-size: 18px!important;
+}
+/*表格内input样式*/
+.modal_table tr td input[type=text]{
+    border: 1px solid #7d7979;
+    padding: 3px;
+}
+.modal_table tr td select{
+    border: 1px solid #7d7979;
+}
+.modal_table td textarea{
+    margin: 5px 0px;
+}
+/*新增 按钮大小*/
+.modal-footer .btn{
+    height: 30px;
+    line-height: 1;
+}
+/*表格头文字样式*/
+.box-header {
+    font-size: 17px;
+    color: black;
+    font-weight: bold;
+}
+.form-group {
+    font-size: 17px;
+    color: black;
+}
+/*查看表格宽度*/
+.modal-body  div[align="center"]{
+    padding-right: 30px;
+}
+.modal-body  div[align="center"] table{
+    width: 98%;
+}
+.form-control{
+    font-size: 15px;
+    color: #000;
+    padding: 1px 0px;
+    width: 100%;
+    height: 26px;
+}
+.box-body  #req,.box-body  #resp{
+    width: 96%;
+}
+
+#resp td *,#req td * {
+    width: 100%!important;
+}
+.modal-content .box-body    tbody tr td:first-child  {
+    min-width: 160px!important;
+}
+.modal_table  tr td:last-child{
+    min-width: 150px;
+    max-width:150px ;
+}
+.table-striped thead tr td{
+    font-family:\534E\6587\6977\4F53 ;
+    font-size: 20px;
+}
+
+.modal_table tr td:nth-child(2){
+    min-width: 150px;
+    max-width:150px ;
+}
+.sidebar-menu span,.treeview-menu a{
+    font-weight: bold;
+}
+.search_div #selectType,.search_div #selectType option,
+.search #selectType,.search #selectType option{
+    font-family:\534E\6587\6977\4F53 ;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+/*文件上传*/
+.ui_upload{
+    height: 30px;
+    width: 85px;
+    background-color: #6fb1f5;
+    font-size: 14px;
+    line-height: 30px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 3px;
+    position: absolute;
+}
+.modal_table2 .box-body  table tr td,
+.modal_table3 .box-body  table tr td{
+    text-align: center;
+}

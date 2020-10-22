@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.xyst.fwgl.mapper.CategoryAndServiceMapper" >
+    <select id="findSubmitByCnameNum" resultType="int" parameterType="String">
+        select count(*) from service_info where status in (0,1,3) and service_info.category_id
+        in (select id from category where cname like "%"#{name}"%" )
+    </select>
+
+    <select id="findSubmitByCname" resultType="ServiceInfo">
+        select * from service_info where status in (0,1,3) and service_info.category_id
+        in (select id from category where cname like "%"#{name}"%")
+        order by status desc limit #{begin},#{pageSize}
+    </select>
+
+    <select id="findUnloadByCnameNum" resultType="int" parameterType="String">
+        select count(*) from service_info where status in (7,2,9) and service_info.category_id
+        in (select id from category where cname like "%"#{name}"%" )
+    </select>
+
+    <select id="findUnloadByCname" resultType="ServiceInfo">
+        select * from service_info where status in (7,2,9) and service_info.category_id
+        in (select id from category where cname like "%"#{name}"%")
+        order by status desc limit #{begin},#{pageSize}
+    </select>
+
+    <select id="findDeleteByCnameNum" resultType="int" parameterType="String">
+        select count(*) from service_info where status in (4,8,6) and service_info.category_id
+        in (select id from category where cname like "%"#{name}"%" )
+    </select>
+
+    <select id="findDeleteByCname" resultType="ServiceInfo">
+        select * from service_info where status in (4,8,6) and service_info.category_id
+        in (select id from category where cname like "%"#{name}"%")
+        order by status desc limit #{begin},#{pageSize}
+    </select>
+
+    <select id="findAllByCnameNum" resultType="int" parameterType="String">
+        select count(*) from service_info where service_info.category_id
+        in (select id from category where cname like "%"#{name}"%" )
+    </select>
+
+    <select id="findAllByCname" resultType="ServiceInfo">
+        select * from service_info where service_info.category_id
+        in (select id from category where cname like "%"#{name}"%")
+        order by status desc limit #{begin},#{pageSize}
+    </select>
+
+</mapper>

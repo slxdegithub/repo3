@@ -1,0 +1,370 @@
+/*清除浮动*/
+.float_n{
+    float: none!important;
+    margin: 0 auto;
+}
+/*清除点击出现线框*/
+button{
+    outline:none!important;
+}
+.btn[disabled]{
+    pointer-events: inherit;
+}
+
+/*清除左边距*/
+.padding_l{
+    padding-left: 0px!important;
+}
+.fuwu_content{
+    height: 750px;
+    background-color: white;
+    border-radius: 16px;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+/*0804 搜索*/
+/*右侧搜索框*/
+.search_div .search-input{
+    height: 100%;
+    border: none;
+    padding: 15px;
+    font-size: 15px;
+    width: 100%;
+}
+.search_div .search_icon{
+    position: absolute;
+    top: 8px;
+    width: 20px !important;
+    right: 30px;
+    height: 20px;
+    color: blue;
+}
+.search_div  .search_icon:before{
+    font-size: 20px;
+}
+.search_div{
+    margin-left: auto;
+    border-radius: 10px;
+    border: 2px solid #00acef;
+    overflow: hidden;
+    height: 35px;
+    position: inherit;
+}
+
+.wid_main .search_div{
+    position: relative;
+}
+/*小搜索框*/
+.has-feedback .input-sm{
+    border-radius: 10px!important;
+    font-size: 15px;
+}
+.has-feedback i{
+    color: mediumblue;
+    position: absolute;
+    top: 7px;
+    right: 9px;
+}
+
+/*0809 左侧列表*/
+.list-group{
+    width: 100%;
+    border-right: 1px solid #aaa;
+    height: 95%;
+    overflow-y:scroll;
+}
+.list-group .list-group-item{
+    font-size: 16px;
+    border: none;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 2px
+    /*background-color: aliceblue;*/
+}
+.cname{
+    font-size: 18px;
+    color: #00acef;
+}
+/*0816修改*/
+.list-group-item .glyphicon-th-large{
+    transform: rotate(90deg);
+    color: #05a3ea;
+    font-size: 15px;
+    width: 20px;
+}
+.aside .glyphicon-menu-right{
+    position: absolute;
+    right: 4%;
+    top: 15px;
+    color: #aaa;
+}
+.aside{
+    position: relative;
+}
+
+.num{
+    float: right;
+    margin-right: 7%;
+    color: #aaaaaa;
+    font-size: 15px;
+}
+.num_0{
+    float: right;
+    margin-right: 10%;
+    color: #aaaaaa;
+    font-size: 15px;
+}
+
+.right_num{
+    position: absolute!important;
+    right: 14px;
+    top: 7px!important;
+}
+/*.zy_left_con{*/
+/*max-width: 233px;*/
+/*}*/
+.scroll{
+    overflow: hidden;
+    height: 87%;
+    margin-top: 2px;
+}
+.fuwu_list{
+    margin: 18px 20px;
+    border-left: 5px solid #f9cb36;
+    padding-left: 5px;
+    border-bottom: 2px dotted #00c0ef;
+    border-bottom-left-radius: 10px;
+}
+.fuwu_list table{
+    width: 100%;
+}
+.flex{
+    display: flex;
+}
+.flex .zy_left_con{
+    flex: 1;
+}
+.flex .zy_right_con{
+    flex: 3;
+}
+.fuwu_list table tr{
+    /*height: 5.1vh;*/
+}
+.sp-1{
+    color: #999
+}
+.fuwu_detail{
+    margin: 0px 20px;
+    border-bottom: 3px solid #0d6aad;
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 5px;
+}
+/*0817新增*/
+.fuwu_name{
+    font-size: 20px;
+    font-weight: bold;
+    color: #05a3ea;
+}
+
+/*排列规则*/
+.fuwu_detail .detail_right{
+    font-size: 15px;
+    text-shadow: 0 0 black;
+    min-width: 300px;
+}
+
+.detail_right .select_a{
+    border: 2px solid #00acef;
+}
+.detail_right a{
+    color:#333 ;
+    padding: 5px;
+    border-radius: 7px;
+    margin-left: 5px;
+
+    min-width: 90px;
+    display: inline-block;
+    text-align: center;
+}
+.detail_right i{
+    color: #aaaaaa;
+}
+.select_a i{
+    color: #ffd70e;
+}
+
+.detail_left{
+    line-height: 2;
+    font-size: 16px;
+    background-color: #00acef;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    min-width: 101px;
+}
+/*modal*/
+.open_modal{
+    display: block!important;
+}
+.modal-dialog{
+    top: 25vh;
+
+}
+/*modal大小*/
+.model_cancel>.modal-dialog, .model_subscribe_sure .modal-dialog{
+    width: 300px!important;
+}
+.modal-body table  {
+    width: 100%;
+}
+.fuwu_content .flex{
+    height: 100%;
+}
+.fuwu_list table tr td{
+    width: 25%;
+}
+
+
+/*分页*/
+.page_btn{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    height: 75px;
+}
+.page_btn label{
+    line-height: 6;
+}
+.title_body{
+    display: none;
+    position: fixed;
+    top: 7vh;
+    width: 55vh;
+    left: 20%;
+    height: 10vh;
+    font-size: 20px;
+    text-align: center;
+    line-height: 3;
+    color: white;
+    background-color: #36cc50d4;
+    border-radius: 10px;
+}
+/*高亮*/
+.select_btn button{
+    background-color: #d5e5f7!important;
+    border-top-left-radius: 7px!important;
+    border-bottom-left-radius: 7px!important;
+}
+/*0816新增*/
+.search_kind{
+    display: flex;
+    background-color: #00acef;
+    justify-content: space-between;
+    padding: 5px;
+    border-radius: 5px;
+    align-items: center;
+    color: #fff;
+    padding-left: 10px;
+    font-size: 16px;
+}
+.search_kind .has-feedback{
+    flex: 1;
+    margin-left: 5px;
+}
+/*0817查看订阅按钮*/
+.fuwu_button{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    margin-right: 15px;
+}
+
+.fuwu_button button{
+    border-radius: 12px;
+    width: 90px;
+    font-size: 13px;
+    margin-bottom: 5px;
+    height: 30px;
+}
+/*0817新增搜索全部分类*/
+.list_btn{
+    margin: 30px 5%;
+    padding-top: 8px;
+    text-align: center;
+}
+.list_btn a{
+    text-decoration: underline!important;
+    font-size: 17px;
+}
+/*左侧提示信息*/
+.list-group .tip_div{
+    font-size: 18px;
+}
+.tip_div{
+    text-align: center;
+    font-size: 17px;
+    color: #acafac;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tip_div img{
+    width: 200px;
+    margin-top: 10%;
+    margin-bottom: 20px;
+}
+.tip_div .title{
+    font-size: 21px;
+    margin-bottom: 6px;
+}
+.tip_div  .jump{
+    font-size: 16px;
+}
+.jump a:hover{
+    text-decoration: underline!important;
+    color: #3c8dbc;
+}
+.modal-dialog{
+    right: 0;
+    width: 621px;
+    position: absolute;
+    top: 15px;
+    left: 0;
+    margin: 0 auto;
+}
+.box-body table tr td input,.modal_table tr td input{
+    padding-left: 3px;
+}
+/*自定义滚动条样式*/
+.test-1::-webkit-scrollbar {/*滚动条整体样式*/
+    width: 0px;     /*高宽分别对应横竖滚动条的尺寸 设置为0即为隐藏*/
+    height: 1px;
+}
+.test-1::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    background: #535353;
+}
+.test-1::-webkit-scrollbar-track {/*滚动条里面轨道*/
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    background: #EDEDED;
+}
+/*兼容火狐*/
+.test-1 {
+    scrollbar-width: none;
+    scrollbar-color: #333 transparent;
+}
+/*有子项目的箭头的图标*/
+.icon-zuo {
+    position: absolute!important;
+    right: 3% !important;
+}
+/*查询二级目录*/
+.fontColor_red{
+    color:red;
+}

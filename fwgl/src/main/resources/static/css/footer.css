@@ -1,0 +1,27 @@
+/*底部信息*/
+.footerbox{
+    width: 100%;
+    background-color: #6fb1f5;
+    padding: 0px!important;
+}
+.footerbox .txt{
+    font-size: 14px;
+    padding: 5px;
+    color: black;
+    line-height: 20px;
+    display: flex;
+    margin: 0 auto;
+    float: none;
+    justify-content: space-between;
+}
+.footerbox .txt a{
+    color: #626262;
+}
+.footerbox .txt div{
+    display: flex;
+    flex-direction: column;
+}
+.fixed-bottom {
+    position: fixed;bottom: 0;
+    width:100%;
+}

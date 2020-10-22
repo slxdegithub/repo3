@@ -1,0 +1,85 @@
+@charset "utf-8";
+/*重置*/
+body,h1,h2,h3,dl,dd,dt,p,ul,li,ol{margin:0; padding:0;}
+button,input,select,textarea{border:none; margin:0;outline:none; padding:0;background: none;}
+table,tr,td,th,thead,tbody,video{ border:none; margin:0;outline:none; padding:0;}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}/*合并初始表格边框*/
+h1,h2,h3{ font-weight:normal;}
+img{ border:none;}
+a{text-decoration:none; outline:none;}
+li{ list-style-type:none;}
+html,body{ background-color:#eee;}
+
+/*清除浮动*/
+.fix{*zoom:1;}
+.fix:after{display:table; content:''; clear:both;}
+
+/*内容框*/
+.contentbox{ margin:10px auto;padding: 5px  0; position: relative;}
+.content{ min-height: 775px; margin:0 10px;}
+.biaoti_box{
+	background-color: #fff;
+	padding-top: 20px;
+	width: 75%;
+	margin: 23px auto;
+	font-size: 20px;
+	border-radius: 15px;
+	border-top: 2px solid #aaa;
+}
+.content .list_box{
+    float: none!important;
+    margin-bottom: 20px!important;
+    display: flex;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.list_box .about_box_1{
+    display: flex;
+    align-items: center;
+	margin: 0 auto;
+	float: none;
+	height: 113px;
+}
+.about_box_1 .col-xs-4{
+    display: flex;
+    font-size: 16px;
+    height: 100%;
+    align-items: center;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.list_box .box_2{
+    margin-left: 10px;
+}
+.list_box div{
+    background-color: white;
+    border-radius: 12px;
+}
+
+/*0818新增 统计分析时间选择*/
+#chooDate{
+	border: 1px solid #aaa;
+	width: 148px;
+	margin-left: 15px;
+	padding-left: 15px;
+	border-radius: 10px;
+}
+.seclect_data{
+	position: absolute;
+	top: 0;
+	width: 310px;
+	margin: 0 auto;
+	right: 20px;
+	display: flex;
+}
+.count_top{
+	position: relative;
+	padding-left: 40px;
+}
+.seclect_data i{
+	margin-top: 4px;
+	color: #483b3b;
+}
